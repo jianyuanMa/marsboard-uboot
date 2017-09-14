@@ -1,0 +1,7 @@
+MX6MARSBOARD BOARD
+M:	Eric Bénard <eric@eukrea.com>
+S:	Maintained
+F:	board/af/mx6marsboard/
+F:	include/configs/mx6marsboard.h
+F:	configs/mx6marsboard_defconfig
+F:	configs/riotboard_defconfig

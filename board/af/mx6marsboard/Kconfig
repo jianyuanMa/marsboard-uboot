@@ -1,0 +1,12 @@
+if TARGET_MX6MARSBOARD
+
+config SYS_BOARD
+	default "mx6marsboard"
+
+config SYS_VENDOR
+	default "af"
+
+config SYS_CONFIG_NAME
+	default "mx6marsboard"
+
+endif
