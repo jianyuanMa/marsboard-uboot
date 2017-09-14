@@ -601,7 +601,7 @@ int checkboard(void)
 {
 	puts("Board: ");
 	if (board_type == BOARD_IS_MARSBOARD)
-		puts("MarSBoard\n");
+		puts("MX6MarSBoard-AF\n");
 	else if (board_type == BOARD_IS_RIOTBOARD)
 		puts("RIoTboard\n");
 	else

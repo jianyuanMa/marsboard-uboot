@@ -64,6 +64,9 @@ config TARGET_CM_FX6
 config TARGET_EMBESTMX6BOARDS
 	bool "embestmx6boards"
 
+config TARGET_MX6MARSBOARD
+	bool "mx6marsboard"
+
 config TARGET_GE_B450V3
 	bool "General Electric B450v3"
 	select MX6Q
@@ -101,9 +104,6 @@ config TARGET_MX6SABRESD
 	select SUPPORT_SPL
 	select DM
 	select DM_THERMAL
-
-config TARGET_MX6MARSBOARD
-	bool "mx6marsboard"
 
 config TARGET_MX6SLEVK
 	bool "mx6slevk"
